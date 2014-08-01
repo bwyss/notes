@@ -1,1 +1,2329 @@
-/Users/bmwyss/Documents/GEM/metadata_sql
+svir metadata:
+source = column gx
+
+debt
+insert into metadata (name, value) Values ('category', 'economy');
+insert into metadata (name, value) Values ('sub_category', 'Economic Resources');
+insert into metadata (name, value) Values ('mapped_value', 'Public debt');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'economy, debt');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+exports
+insert into metadata (name, value) Values ('category', 'economy');
+insert into metadata (name, value) Values ('sub_category', 'Economic Activity');
+insert into metadata (name, value) Values ('mapped_value', 'Manufactures exports');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'economy, exports');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+GDP per capita
+insert into metadata (name, value) Values ('category', 'economy');
+insert into metadata (name, value) Values ('sub_category', 'Economic Activity');
+insert into metadata (name, value) Values ('mapped_value', 'GDP per Capita');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'economy, GDP');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+GDP services sector
+insert into metadata (name, value) Values ('category', 'economy');
+insert into metadata (name, value) Values ('sub_category', 'Economic Resources');
+insert into metadata (name, value) Values ('mapped_value', 'GDP services sector');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'economy, GDP, service');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+GINI
+insert into metadata (name, value) Values ('category', 'economy');
+insert into metadata (name, value) Values ('sub_category', 'Income Distribution and Poverty');
+insert into metadata (name, value) Values ('mapped_value', 'GINI');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'economy, GINI');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+Labor force agriculture
+insert into metadata (name, value) Values ('category', 'economy');
+insert into metadata (name, value) Values ('sub_category', 'Labour Market');
+insert into metadata (name, value) Values ('mapped_value', 'Labor force - by occupation - agriculture(%)');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'economy, agriculture');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+Poverty
+insert into metadata (name, value) Values ('category', 'economy');
+insert into metadata (name, value) Values ('sub_category', 'Income Distribution and Poverty');
+insert into metadata (name, value) Values ('mapped_value', 'Population below poverty line (%)');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'economy, poverty');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+unemployment
+insert into metadata (name, value) Values ('category', 'economy');
+insert into metadata (name, value) Values ('sub_category', 'Labour Market');
+insert into metadata (name, value) Values ('mapped_value', 'Unemployment rate(%)');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'economy, Unemployment');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+
+expenditures
+insert into metadata (name, value) Values ('category', 'Education');
+insert into metadata (name, value) Values ('sub_category', 'Education Access');
+insert into metadata (name, value) Values ('mapped_value', 'Education expenditures - percent of GDP');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'education, expenditures');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+literacy female
+insert into metadata (name, value) Values ('category', 'Education');
+insert into metadata (name, value) Values ('sub_category', 'Education Outcome');
+insert into metadata (name, value) Values ('mapped_value', 'Literacy - female(%)');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'education, literacy');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+literacy
+insert into metadata (name, value) Values ('category', 'Education');
+insert into metadata (name, value) Values ('sub_category', 'Education Outcome');
+insert into metadata (name, value) Values ('mapped_value', 'Adult literacy rate - Adult literacy rate');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'education, literacy');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+schooling
+insert into metadata (name, value) Values ('category', 'Education');
+insert into metadata (name, value) Values ('sub_category', 'Education Access');
+insert into metadata (name, value) Values ('mapped_value', 'Mean Years of Schooling');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'education, schooling');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+asylum
+insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
+insert into metadata (name, value) Values ('sub_category', 'Government Effectiveness');
+insert into metadata (name, value) Values ('mapped_value', 'Asylum-seekers');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'governance, Asylum');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+Effectiveness
+insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
+insert into metadata (name, value) Values ('sub_category', 'Government Effectiveness');
+insert into metadata (name, value) Values ('mapped_value', 'Government Effectiveness');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'governance, Effectiveness');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+Intentional homicides
+insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
+insert into metadata (name, value) Values ('sub_category', 'Absence of Violence and Terrorism');
+insert into metadata (name, value) Values ('mapped_value', 'Intentional homicides');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'governance, Intentional homicides');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+legal rights **************
+insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
+insert into metadata (name, value) Values ('sub_category', 'Laws, Rights & Voice');
+insert into metadata (name, value) Values ('mapped_value', 'Legal rights index');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'governance, Leagal rights');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+loss
+insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
+insert into metadata (name, value) Values ('sub_category', 'Absence of Violence and Terrorism');
+insert into metadata (name, value) Values ('mapped_value', 'Losses due to theft, robbery, vandalism, and arson');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'governance, Losses due to theft, robbery, vandalism, and arson');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+voting turnout
+insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
+insert into metadata (name, value) Values ('sub_category', 'Laws, Rights & Voice');
+insert into metadata (name, value) Values ('mapped_value', 'Voter Turnout at last parliamentary Election (%)');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'governance, voter turnout');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+age structure
+insert into metadata (name, value) Values ('category', 'Population');
+insert into metadata (name, value) Values ('sub_category', 'Special Needs Population');
+insert into metadata (name, value) Values ('mapped_value', 'Age structure 65 years and over (%)');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'governance, age structure');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+density
+insert into metadata (name, value) Values ('category', 'Population');
+insert into metadata (name, value) Values ('sub_category', 'Population Structure');
+insert into metadata (name, value) Values ('mapped_value', 'Population density - Persons per sq km');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'population, density');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+migration 
+insert into metadata (name, value) Values ('category', 'Population');
+insert into metadata (name, value) Values ('sub_category', 'Population Structure');
+insert into metadata (name, value) Values ('mapped_value', 'Net migration rate');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'population, migration');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+
+tourism
+insert into metadata (name, value) Values ('category', 'Population');
+insert into metadata (name, value) Values ('sub_category', 'Special Needs Population');
+insert into metadata (name, value) Values ('mapped_value', 'International tourism');
+insert into metadata (name, value) Values ('type', 'svir');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'population, migration');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+
+svir-portugal
+insert into metadata (name, value) Values ('category', 'Portugal');
+insert into metadata (name, value) Values ('sub_category', 'n-a');
+insert into metadata (name, value) Values ('mapped_value', 'Portugal - Test Case');
+insert into metadata (name, value) Values ('type', 'svir-qgis');
+insert into metadata (name, value) Values ('admin_level', '2');
+insert into metadata (name, value) Values ('date', '2013-09-12');
+insert into metadata (name, value) Values ('keyword', 'portugal');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'svir-viewer');
+insert into metadata (name, value) Values ('project_definition', 'https://raw.github.com/gem/oq-platform/svir-viewer-sub/openquakeplatform/openquakeplatform/temp/temp_json_tree.json');
+
+hazard_map_japan_21
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_map_japan_21_land
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 10% in 50 years - Land');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_map_japan_21_contour
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 10% in 50 years - Contour');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_map_japan_21_contour_land
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 10% in 50 years - Contour - Land');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_map_japan_22
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_map_japan_22_land
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 2% in 50 years - Land');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_map_japan_22_contour
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 2% in 50 years - Contour');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_map_japan_22_contour_land
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 2% in 50 years - Contour - Land');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_curve_Japan
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', ‘curve-hc’);
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('iml', '2.0,4.0,6.0,8.0,10.0,12.0,14.0,16.0,18.0,20.0,23.0,26.0,29.0,32.0,35.0,38.0,41.0,44.0,47.0,50.0,55.0,60.0,65.0,70.0,75.0,80.0,85.0,90.0,95.0,100.0,110.0,120.0,130.0,140.0,150.0,160.0,170.0,180.0,190.0,200.0,220.0,240.0,260.0,280.0,300.0');
+insert into metadata (name, value) Values ('imt', 'PGV');
+
+hazard_curve_Japan_land
+insert into metadata (name, value) Values ('category', 'Japan');
+insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Curve - PGA - Land');
+insert into metadata (name, value) Values ('type', ‘curve-hc’);
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'japan, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('iml', '2.0,4.0,6.0,8.0,10.0,12.0,14.0,16.0,18.0,20.0,23.0,26.0,29.0,32.0,35.0,38.0,41.0,44.0,47.0,50.0,55.0,60.0,65.0,70.0,75.0,80.0,85.0,90.0,95.0,100.0,110.0,120.0,130.0,140.0,150.0,160.0,170.0,180.0,190.0,200.0,220.0,240.0,260.0,280.0,300.0');
+insert into metadata (name, value) Values ('imt', 'PGV');
+
+hazard_curve_california pga
+insert into metadata (name, value) Values ('category', 'California');
+insert into metadata (name, value) Values ('mapped_value', 'California Hazard Curve PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-01-14');
+insert into metadata (name, value) Values ('keyword', 'california, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', 'mixed');
+
+hazard_curve_california_sa1
+insert into metadata (name, value) Values ('category', 'California');
+insert into metadata (name, value) Values ('mapped_value', 'California Hazard Curve SA 0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-01-14');
+insert into metadata (name, value) Values ('keyword', 'california, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', 'mixed');
+
+hazard_curve_california_sa2
+insert into metadata (name, value) Values ('category', 'California');
+insert into metadata (name, value) Values ('mapped_value', 'California Hazard Curve SA 0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-01-14');
+insert into metadata (name, value) Values ('keyword', 'california, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', 'mixed');
+
+hazard_curve_california_sa3
+insert into metadata (name, value) Values ('category', 'California');
+insert into metadata (name, value) Values ('mapped_value', 'California Hazard Curve SA 0.3');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-01-14');
+insert into metadata (name, value) Values ('keyword', 'california, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', 'mixed');
+
+hazard_curve_california_sa5
+insert into metadata (name, value) Values ('category', 'California');
+insert into metadata (name, value) Values ('mapped_value', 'California Hazard Curve SA 0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-01-14');
+insert into metadata (name, value) Values ('keyword', 'california, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', 'mixed');
+
+hazard_curve_california_sa1
+insert into metadata (name, value) Values ('category', 'California');
+insert into metadata (name, value) Values ('mapped_value', 'California Hazard Curve SA 1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-01-14');
+insert into metadata (name, value) Values ('keyword', 'california, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', 'mixed');
+
+hazard_map
+insert into metadata (name, value) Values ('category', 'World');
+insert into metadata (name, value) Values ('mapped_value', 'World Hazard Map - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'global');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_contour
+insert into metadata (name, value) Values ('category', 'World');
+insert into metadata (name, value) Values ('mapped_value', 'World Hazard Map - 10% in 50 years - Contour');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'global');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_curve
+insert into metadata (name, value) Values ('category', 'World');
+insert into metadata (name, value) Values ('mapped_value', 'World Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'global');
+insert into metadata (name, value) Values ('date', '2013-04-13');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+
+uh spectra 0.1
+insert into metadata (name, value) Values ('category', 'California');
+insert into metadata (name, value) Values ('mapped_value', 'California Hazard Curve UH-Spectra 0.1’);
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-01-14');
+insert into metadata (name, value) Values ('keyword', 'california, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', 'mixed');
+
+uh spectra 0.02
+insert into metadata (name, value) Values ('category', 'California');
+insert into metadata (name, value) Values ('mapped_value', 'California Hazard Curve UH-Spectra 0.02’);
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-01-14');
+insert into metadata (name, value) Values ('keyword', 'california, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', 'mixed');
+
+loss curve 555
+insert into metadata (name, value) Values ('category', 'Portugal');
+insert into metadata (name, value) Values ('mapped_value', 'Portugal sub selection 555');
+insert into metadata (name, value) Values ('type', 'curve-loss');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-01-14');
+insert into metadata (name, value) Values ('keyword', 'portugal, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+
+hazard_curve_usa_sa_2.mbtiles
+insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-17');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_usa_sa_1.mbtiles
+insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-1.0’);
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-17');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_usa_sa_05.mbtiles
+insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-17');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_usa_sa_02.mbtiles
+insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-17');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_usa_sa_01.mbtiles
+insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-17');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_usa_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-17');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13
+-125,50,0.913606,0.866204,0.797031,0.705351,0.595164,0.478595,0.368833,0.272126,0.19163,0.126884,0.0756248,0.0404215,0.0189787,0.00773787,0.00264648,0.000727503,0.000136982,1.20225e-05,1.55946e-06');
+insert into metadata (name, value) Values ('imt', ‘PGA’);
+
+hazard_curve_alaska_sa_02.mbtiles
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_alaska_sa_01.mbtiles
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_alaska_sa_05.mbtiles
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_alaska_sa_1.mbtiles
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska Hazard Curve - SA-1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-1');
+
+hazard_curve_alaska_sa_2.mbtiles
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska Hazard Curve - SA-2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-2');
+
+hazard_curve_alaska_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+hazard_curve_south_america_sa_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_south_america_sa_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_south_america_sa_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_south_america_sa_1.0.mbtiles
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America Hazard Curve - SA-1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_south_america_sa_2.0.mbtiles
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_south_america_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+hazard-map-Alaska-SA0-01-01
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska hazard map - Spectral acceleration (0.1 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-Alaska-SA0-01-02
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska hazard map - Spectral acceleration (0.1 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-Alaska-SA0-02-01
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska hazard map - Spectral acceleration (0.2 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-Alaska-SA0-02-02
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska hazard map - Spectral acceleration (0.2 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-Alaska-SA0-05-01
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska hazard map - Spectral acceleration (0.5 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-Alaska-SA0-05-02
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska hazard map - Spectral acceleration (0.5 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-Alaska-SA0-1-01
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska hazard map - Spectral acceleration (2.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-Alaska-SA0-1-02
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska hazard map - Spectral acceleration (2.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard_curve_south_east_asia_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+hazard_curve_sea_sa_1.0.mbtiles
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_sea_sa_2.0.mbtiles
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_sea_sa_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_sea_sa_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_sea_sa_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_australia_sa_hs_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia HS Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_australia_sa_hs_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia HS Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_australia_sa_hs_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia HS Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_australia_sa_hs_1.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia HS Hazard Curve - SA-1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_australia_sa_hs_2.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia HS Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_australia_sa_hs_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia HS Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+hazard_curve_australia_sa_rb_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia RB Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_australia_sa_rb_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia RB Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_australia_sa_rb_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia RB Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_australia_sa_rb_1.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia RB Hazard Curve - SA-1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_australia_sa_rb_2.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia RB Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.0253,0.038,0.057,0.0854,0.128,0.192,0.288,0.432,0.649,0.973,1.46,2.19,3.28,4.92,7.38');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_australia_sa_rb_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia RB Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+
+hazard_curve_canada_historical_east_sa_rb_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical HR Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_canada_historical_east_sa_rb_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical HR Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_canada_historical_east_sa_rb_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical HR Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_canada_historical_east_sa_rb_1.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical HR Hazard Curve - SA-1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_canada_historical_east_sa_rb_2.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical HR Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_canada_historical_east_sa_rb_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical HR Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0,0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+
+
+
+hazard_curve_canada_historical_west_sa_rb_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical West HR Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_canada_historical_west_sa_rb_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical West HR Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_canada_historical_west_sa_rb_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical West HR Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_canada_historical_west_sa_rb_1.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical West HR Hazard Curve - SA-1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_canada_historical_west_sa_rb_2.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical West HR Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_canada_historical_west_sa_rb_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Historical West HR Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0,0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+
+
+
+
+hazard_curve_canada_regional_east_sa_rb_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional HR Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_canada_regional_east_sa_rb_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional HR Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_canada_regional_east_sa_rb_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional HR Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_canada_regional_east_sa_rb_1.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional HR Hazard Curve - SA-1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_canada_regional_east_sa_rb_2.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional HR Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_canada_regional_east_sa_rb_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional HR Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0,0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+
+
+hazard_curve_canada_regional_west_sa_rb_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional West Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0,0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_canada_regional_west_sa_rb_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional West Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0,0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_canada_regional_west_sa_rb_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional West Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0,0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+
+
+hazard_curve_canada_regional_west_sa_rb_2.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional West Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0,0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_canada_regional_west_sa_rb_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Regional West Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0,0.00101972,0.00305915,0.0101972,0.0137662,0.017845,0.0239633,0.0305915,0.0428281,0.061183,0.0764787,0.101972,0.137662,0.17845,0.239633,0.305915,0.428281,0.61183,0.764787,1.01972,1.37662,1.7845,2.39633,3.05915,4.28281');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+
+
+
+
+hazard-map-australia-SA-01-01
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (0.1 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-SA-01-02
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (0.1 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-SA-02-01
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (0.2 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-SA-02-02
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (0.2 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-SA-05-01
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (0.5 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-SA-05-02
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (0.5 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-SA-1-01
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (1.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-SA-1-02
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (1.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-SA-2-01
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (2.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-SA-2-02
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (2.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-pga01
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (PGA) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-australia-pga02
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia hazard map - Spectral acceleration (PGA) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+
+
+
+hazard-map-south-america-SA-01-01
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (0.1 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-SA-01-02
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (0.1 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-SA-02-01
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (0.2 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-SA-02-02
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (0.2 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-SA-05-01
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (0.5 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-SA-05-02
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (0.5 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-SA-1-01
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (1.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-SA-1-02
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (1.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-SA-2-01
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (2.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-SA-2-02
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (2.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-pga01
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (PGA) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-america-pga02
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America hazard map - Spectral acceleration (PGA) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+
+
+
+
+hazard-map-south-east-asia-SA-01-01
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.1 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-SA-01-02
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.1 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-SA-02-01
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.2 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-SA-02-02
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.2 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-SA-05-01
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.5 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-SA-05-02
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.5 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-SA-1-01
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (1.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-SA-1-02
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (1.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-SA-2-01
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (2.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-SA-2-02
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (2.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-pga01
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (PGA) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-south-east-asia-pga02
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (PGA) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+
+
+hazard-map-canada-SA-01-01
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (0.1 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-canada-SA-01-02
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (0.1 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-canada-SA-02-01
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (0.2 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-canada-SA-02-02
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (0.2 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-canada-SA-05-01
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (0.5 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-canada-SA-05-02
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (0.5 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-canada-SA-1-01
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (1.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-canada-SA-1-02
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (1.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-canada-SA-2-01
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (2.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-canada-pga02
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada hazard map firm soil - Spectral acceleration (PGA) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+
+
+
+uh spectra USA 0.1
+insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve UH-Spectra 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'USA, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('imt', 'UHS-0.1');
+
+uh spectra USA 0.02
+insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve UH-Spectra 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'USA, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('imt', 'UHS-0.2');
+
+
+
+
+
+hazard-UHS-Canada-east-hist-firm-soil-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS historic firm soil 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-Canada-east-hist-firm-soil-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS historic firm soil 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Canada-east-hist-hard-rock-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS historic hard rock 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Canada-east-hist-hard-rock-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS historic hard rock 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-Canada-east-reg-hard-rock-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS regional hard rock 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-Canada-east-reg-hard-rock-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS regional hard rock 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Canada-east-firm-soil-rock-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS regional firm soil 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Canada-east-firm-soil-rock-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS regional firm soil 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-Canada-west-firm-soil-rock-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS hist west firm soil 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-Canada-west-reg-firm-soil-rock-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS reg west firm soil 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Canada-west-reg-firm-soil-rock-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS reg west firm soil 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-SEA-002.mbtiles
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve UHS 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-SEA-01.mbtiles
+insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve UHS 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Alaska-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska Hazard Curve UHS 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'State');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'Alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-Alaska-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Alaska');
+insert into metadata (name, value) Values ('mapped_value', 'Alaska Hazard Curve UHS 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'State');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'Alaska, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Australia-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia Hazard Curve UHS 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-Australia-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia Hazard Curve UHS 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Australia-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia Hazard Curve UHS 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-Australia-rb-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia Hazard Curve UHS RB 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Australia-rb-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia Hazard Curve UHS RB 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.2');
+
+hazard-UHS-Australia-hs-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia Hazard Curve UHS Host Spots 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-Australia-hs-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Australia');
+insert into metadata (name, value) Values ('mapped_value', 'Australia Hazard Curve UHS Host Spots 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'country');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-South-America-01.mbtiles
+insert into metadata (name, value) Values ('category', 'South America');
+insert into metadata (name, value) Values ('mapped_value', 'South America Hazard Curve UHS 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'South-America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-South-America-002.mbtiles
+insert into metadata (name, value) Values ('category', 'South-America');
+insert into metadata (name, value) Values ('mapped_value', 'South America Hazard Curve UHS 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-01');
+insert into metadata (name, value) Values ('keyword', 'South-America, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+update a record:
+update metadata set value = 'hazard-curve' where name='type';
+
+missing comma issue:
+
+UPDATE keymap SET key_json = replace(replace(key_json, '0.', ',0.'), ',,', ',');
+UPDATE keymap SET key_json = replace(key_json, ':",', ':"');
+
+
+hazard curves
+ "field_3" ||','|| "field_4"  ||','|| "field_5" ||','|| "field_6"  ||','|| "field_7" ||','|| "field_8" ||','|| "field_9" ||','|| "field_10" ||','|| "field_11" ||','|| "field_12" ||','|| "field_13" ||','|| "field_14"  ||','|| "field_15"  ||','|| "field_16" ||','|| "field_17" ||','|| "field_18" ||','|| "field_19" ||','|| "field_20" ||','|| "field_21"
+
+ US
+ "field_3" ||','|| "field_4" ||','|| "field_5" ||','|| "field_6"  ||','|| "field_7" 
+
+loss curves
+poe:
+"field_4"  ||','|| "field_5" ||','|| "field_6"  ||','|| "field_7" ||','|| "field_8" ||','|| "field_9" ||','|| "field_10" ||','|| "field_11" ||','|| "field_12" ||','|| "field_13" ||','|| "field_14"  ||','|| "field_15"  ||','|| "field_16" ||','|| "field_17" ||','|| "field_18" ||','|| "field_19" ||','|| "field_20" ||','|| "field_21"||','|| "field_22"||','|| "field_23"||','|| "field_24"||','|| "field_25"||','|| "field_26"||','|| "field_27"||','|| "field_28"||','|| "field_29"||','|| "field_30"||','|| "field_31"||','|| "field_32"||','|| "field_33"||','|| "field_34"||','|| "field_35"||','|| "field_36"||','|| "field_37"||','|| "field_38"||','|| "field_39"||','|| "field_40"||','|| "field_41"||','|| "field_42"||','||"field_43" ||','|| "field_44"  ||','|| "field_45" ||','|| "field_46"  ||','|| "field_47" ||','|| "field_48" ||','|| "field_49" ||','|| "field_50" ||','|| "field_51" ||','|| "field_52" ||','|| "field_53" ||','|| "field_54"  ||','|| "field_55"  ||','|| "field_56" ||','|| "field_57" ||','|| "field_58" ||','|| "field_59" ||','|| "field_60" ||','|| "field_61"||','|| "field_62"||','|| "field_63"||','|| "field_64"||','|| "field_65"||','|| "field_66"
+losses:
+ "field_67" ||','|| "field_68" ||','|| "field_69" ||','|| "field_70" ||','|| "field_71" ||','|| "field_72" ||','|| "field_73" ||','|| "field_74"  ||','|| "field_75"  ||','|| "field_76" ||','|| "field_77" ||','|| "field_78" ||','|| "field_79" ||','|| "field_80" ||','|| "field_81"||','|| "field_82"||','|| "field_83"||','|| "field_84"||','|| "field_85"||','|| "field_86"||','|| "field_87"||','|| "field_88"||','|| "field_89"||','|| "field_90"||','|| "field_91"||','|| "field_92"||','|| "field_93"||','|| "field_94"||','|| "field_95"||','|| "field_96"||','|| "field_97"||','|| "field_98"||','|| "field_99"||','|| "field_100"||','|| "field_101"||','|| "field_102"||','||"field_103" ||','|| "field_104"  ||','|| "field_105" ||','|| "field_106"  ||','|| "field_107" ||','|| "field_108" ||','|| "field_109" ||','|| "field_110" ||','|| "field_111" ||','|| "field_112" ||','|| "field_113" ||','|| "field_114"  ||','|| "field_115"  ||','|| "field_116" ||','|| "field_117" ||','|| "field_118" ||','|| "field_119" ||','|| "field_120" ||','|| "field_121"||','|| "field_122"||','|| "field_123"||','|| "field_124"||','|| "field_125"||','|| "field_126"||','|| "field_127"||','|| "field_128"||','|| "field_129"
+
+
+
+python hazard_curve_converter.py  --input-file=/Users/bmwyss/Documents/GEM/Hazard_Maps/calc_10/hazard_curve/SA-0.2/hazard_curve-smltp_California_C21_Model-gsimltp_Chiou_Youngs_2008.xml --output-file=/Users/bmwyss/Documents/GEM/Hazard_Maps/calc_10/hazard_curve/SA-0.2/hazard_curve-smltp_California_C21_Model-gsimltp_Chiou_Youngs_2008.csv
+
+python parse_loss_curves.py --input-file=/Users/bmwyss/Documents/GEM/loss_curves/loss-curves-555.xml
+
+create table loss_curves4 (poe char(5555), loss char(5555), lat double precision, lon double precision, asset_ref char(55));
+
+copy loss_curves4 from '/Users/bmwyss/Documents/GEM/loss_curves/loss-curves-555-sub2.csv' DELIMITER ',' CSV;
+
+ALTER TABLE loss_curves4 ADD COLUMN geom geometry(POINT,4326);
+
+UPDATE loss_curves4 SET geom = ST_SetSRID(ST_MakePoint(lon,lat),4326);
+
+create table loss_curves_agg as select geom, array_agg(asset_ref) as asset_ref, array_agg(poe) as poes, array_agg(loss) as loss from loss_curves4 group by geom;
+
+
+
+python manage.py loaddata openquakeplatform/fixtures/isc_map_layer.json
+—————————————————
+
+GITHUB API:
+get the aha:
+git rev-parse HEAD
+
+get blobs for a file: first:
+https://api.github.com/repos/bwyss/oq-platform/git/trees/{sha}
+
+get the sha with git rev-parse HEAD
+
+then click through the file directory to the file, get the sha and then:
+
+https://api.github.com/repos/bwyss/oq-platform/git/blobs/{sha} 
+
+
+GITLAB:
+
+get branch:
+https://gitlab.openquake.org/api/v3/projects/66/repository/branches/portugal-test-case?private_token=DCvxLNBsWvf7KFD7qiy4
+
+get the tree and add below:
+
+get the tree and blob for a branch
+https://gitlab.openquake.org/api/v3/projects/66/repository/raw_blobs/c884c0690e4082e0f531673972b82c5f6b1f102a?private_token=DCvxLNBsWvf7KFD7qiy4
+
+get the tree and add to below:
+
+get a file content:
+
+https://gitlab.openquake.org/api/v3/projects/66/repository/raw_blobs/20a72746602629cf704348fc93d0c32e87e0515d?private_token=DCvxLNBsWvf7KFD7qiy4#
+
