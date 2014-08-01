@@ -2259,7 +2259,6 @@ update a record:
 update metadata set value = 'hazard-curve' where name='type';
 
 missing comma issue:
-
 UPDATE keymap SET key_json = replace(replace(key_json, '0.', ',0.'), ',,', ',');
 UPDATE keymap SET key_json = replace(key_json, ':",', ':"');
 
@@ -2297,33 +2296,8 @@ create table loss_curves_agg as select geom, array_agg(asset_ref) as asset_ref, 
 python manage.py loaddata openquakeplatform/fixtures/isc_map_layer.json
 —————————————————
 
-GITHUB API:
-get the aha:
-git rev-parse HEAD
-
-get blobs for a file: first:
-https://api.github.com/repos/bwyss/oq-platform/git/trees/{sha}
-
-get the sha with git rev-parse HEAD
-
-then click through the file directory to the file, get the sha and then:
-
-https://api.github.com/repos/bwyss/oq-platform/git/blobs/{sha} 
 
 
-GITLAB:
 
-get branch:
-https://gitlab.openquake.org/api/v3/projects/66/repository/branches/portugal-test-case?private_token=DCvxLNBsWvf7KFD7qiy4
 
-get the tree and add below:
-
-get the tree and blob for a branch
-https://gitlab.openquake.org/api/v3/projects/66/repository/raw_blobs/c884c0690e4082e0f531673972b82c5f6b1f102a?private_token=DCvxLNBsWvf7KFD7qiy4
-
-get the tree and add to below:
-
-get a file content:
-
-https://gitlab.openquake.org/api/v3/projects/66/repository/raw_blobs/20a72746602629cf704348fc93d0c32e87e0515d?private_token=DCvxLNBsWvf7KFD7qiy4#
 
