@@ -494,7 +494,7 @@ insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 
 hazard_curve_usa_sa_2.mbtiles
-insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-2.0');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'national');
@@ -507,7 +507,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.
 insert into metadata (name, value) Values ('imt', 'SA-2.0');
 
 hazard_curve_usa_sa_1.mbtiles
-insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-1.0’);
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'national');
@@ -521,7 +521,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.
 insert into metadata (name, value) Values ('imt', 'SA-1.0');
 
 hazard_curve_usa_sa_05.mbtiles
-insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-0.5');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'national');
@@ -535,7 +535,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.
 insert into metadata (name, value) Values ('imt', 'SA-0.5');
 
 hazard_curve_usa_sa_02.mbtiles
-insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-0.2');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'national');
@@ -549,7 +549,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.
 insert into metadata (name, value) Values ('imt', 'SA-0.2');
 
 hazard_curve_usa_sa_01.mbtiles
-insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - SA-0.1');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'national');
@@ -563,7 +563,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.
 insert into metadata (name, value) Values ('imt', 'SA-0.1');
 
 hazard_curve_usa_pga.mbtiles
-insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve - PGA');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'national');
@@ -825,8 +825,28 @@ insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
+hazard-map-USA-PGA01
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
+insert into metadata (name, value) Values ('mapped_value', 'USA hazard map - (PGA) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'Country');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'usa, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-USA-PGA002
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
+insert into metadata (name, value) Values ('mapped_value', 'USA hazard map - (PGA) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'Country');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'usa, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
 hazard_curve_south_east_asia_pga.mbtiles
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - PGA');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'continent');
@@ -840,7 +860,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.007,0.0098,0.0137,0.0
 insert into metadata (name, value) Values ('imt', 'PGA');
 
 hazard_curve_sea_sa_1.0.mbtiles
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-1.0');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'continent');
@@ -854,7 +874,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.
 insert into metadata (name, value) Values ('imt', 'SA-1.0');
 
 hazard_curve_sea_sa_2.0.mbtiles
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-2.0');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'continent');
@@ -868,7 +888,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.
 insert into metadata (name, value) Values ('imt', 'SA-2.0');
 
 hazard_curve_sea_sa_0.1.mbtiles
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-0.1');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'continent');
@@ -882,7 +902,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.
 insert into metadata (name, value) Values ('imt', 'SA-0.1');
 
 hazard_curve_sea_sa_0.2.mbtiles
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-0.2');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'continent');
@@ -896,7 +916,7 @@ insert into metadata (name, value) Values ('iml', '0.005,0.0075,0.0113,0.0169,0.
 insert into metadata (name, value) Values ('imt', 'SA-0.2');
 
 hazard_curve_sea_sa_0.5.mbtiles
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve - SA-0.5');
 insert into metadata (name, value) Values ('type', 'curve-hc');
 insert into metadata (name, value) Values ('admin_level', 'continent');
@@ -1663,7 +1683,7 @@ insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 
 hazard-map-south-east-asia-SA-01-01
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.1 s) - 10% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1673,7 +1693,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-SA-01-02
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.1 s) - 2% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1683,7 +1703,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-SA-02-01
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.2 s) - 10% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1693,7 +1713,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-SA-02-02
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.2 s) - 2% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1703,7 +1723,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-SA-05-01
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.5 s) - 10% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1713,7 +1733,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-SA-05-02
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (0.5 s) - 2% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1723,7 +1743,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-SA-1-01
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (1.0 s) - 10% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1733,7 +1753,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-SA-1-02
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (1.0 s) - 2% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1743,7 +1763,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-SA-2-01
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (2.0 s) - 10% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1753,7 +1773,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-SA-2-02
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (2.0 s) - 2% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1763,7 +1783,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-pga01
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (PGA) - 10% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1773,7 +1793,7 @@ insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 hazard-map-south-east-asia-pga02
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia hazard map - Spectral acceleration (PGA) - 2% in 50 years');
 insert into metadata (name, value) Values ('type', 'hazard');
 insert into metadata (name, value) Values ('admin_level', 'state');
@@ -1888,7 +1908,7 @@ insert into metadata (name, value) Values ('application', 'hazard-viewer');
 
 
 uh spectra USA 0.1
-insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve UH-Spectra 0.1');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
 insert into metadata (name, value) Values ('admin_level', 'national');
@@ -1902,7 +1922,7 @@ insert into metadata (name, value) Values ('iml', '0.0,0.1,0.2,0.5,1.0,2.0');
 insert into metadata (name, value) Values ('imt', 'UHS-0.1');
 
 uh spectra USA 0.02
-insert into metadata (name, value) Values ('category', 'USA');
+insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Hazard Curve UH-Spectra 0.02');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
 insert into metadata (name, value) Values ('admin_level', 'national');
@@ -1933,7 +1953,7 @@ insert into metadata (name, value) Values ('chartType', 'single');
 insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
 insert into metadata (name, value) Values ('poe', 'UHS-0.02');
 
-hazard-UHS-Canada-east-hist-firm-soil-01.mbtiles
+hazard-UHS-Canada-east-hist-firm-soil-01.mbtiles 
 insert into metadata (name, value) Values ('category', 'Canada');
 insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS historic firm soil 0.1');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
@@ -2003,7 +2023,7 @@ insert into metadata (name, value) Values ('chartType', 'single');
 insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
 insert into metadata (name, value) Values ('poe', 'UHS-0.1');
 
-hazard-UHS-Canada-east-firm-soil-rock-01.mbtiles
+hazard-UHS-Canada-east-firm-soil-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada');
 insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS regional firm soil 0.1');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
@@ -2017,7 +2037,7 @@ insert into metadata (name, value) Values ('chartType', 'single');
 insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
 insert into metadata (name, value) Values ('poe', 'UHS-0.1');
 
-hazard-UHS-Canada-east-firm-soil-rock-002.mbtiles
+hazard-UHS-Canada-east-firm-soil-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada');
 insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS regional firm soil 0.02');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
@@ -2031,7 +2051,7 @@ insert into metadata (name, value) Values ('chartType', 'single');
 insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
 insert into metadata (name, value) Values ('poe', 'UHS-0.02');
 
-hazard-UHS-Canada-west-firm-soil-rock-002.mbtiles
+hazard-UHS-Canada-west-hist-fs-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada');
 insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS hist west firm soil 0.02');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
@@ -2045,7 +2065,22 @@ insert into metadata (name, value) Values ('chartType', 'single');
 insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
 insert into metadata (name, value) Values ('poe', 'UHS-0.02');
 
-hazard-UHS-Canada-west-reg-firm-soil-rock-01.mbtiles
+hazard-UHS-Canada-west-hist-fs-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Canada');
+insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS hist west firm soil 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'national');
+insert into metadata (name, value) Values ('date', '2014-07-28');
+insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+
+hazard-UHS-Canada-west-reg-fs-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada');
 insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS reg west firm soil 0.1');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
@@ -2059,7 +2094,7 @@ insert into metadata (name, value) Values ('chartType', 'single');
 insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
 insert into metadata (name, value) Values ('poe', 'UHS-0.1');
 
-hazard-UHS-Canada-west-reg-firm-soil-rock-002.mbtiles
+hazard-UHS-Canada-west-reg-fs-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada');
 insert into metadata (name, value) Values ('mapped_value', 'Canada Hazard Curve UHS reg west firm soil 0.02');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
@@ -2074,7 +2109,7 @@ insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0');
 insert into metadata (name, value) Values ('poe', 'UHS-0.02');
 
 hazard-UHS-SEA-002.mbtiles
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve UHS 0.02');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
 insert into metadata (name, value) Values ('admin_level', 'continent');
@@ -2088,7 +2123,7 @@ insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0')
 insert into metadata (name, value) Values ('poe', 'UHS-0.02');
 
 hazard-UHS-SEA-01.mbtiles
-insert into metadata (name, value) Values ('category', 'South East Asia');
+insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Hazard Curve UHS 0.1');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
 insert into metadata (name, value) Values ('admin_level', 'continent');
@@ -2187,7 +2222,7 @@ insert into metadata (name, value) Values ('poe', 'UHS-0.1');
 
 hazard-UHS-Australia-rb-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Australia');
-insert into metadata (name, value) Values ('mapped_value', 'Australia Hazard Curve UHS RB 0.1');
+insert into metadata (name, value) Values ('mapped_value', 'Australia Hazard Curve UHS RB 0.02');
 insert into metadata (name, value) Values ('type', 'curve-uhs');
 insert into metadata (name, value) Values ('admin_level', 'country');
 insert into metadata (name, value) Values ('date', '2014-08-01');
@@ -2197,7 +2232,7 @@ insert into metadata (name, value) Values ('application', 'hazard-viewer');
 insert into metadata (name, value) Values ('investigationTime', '50');
 insert into metadata (name, value) Values ('chartType', 'single');
 insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
-insert into metadata (name, value) Values ('poe', 'UHS-0.2');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
 
 hazard-UHS-Australia-hs-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Australia');
@@ -2255,6 +2290,883 @@ insert into metadata (name, value) Values ('chartType', 'single');
 insert into metadata (name, value) Values ('periods', '0.0,0.1,0.2,0.5,1.0,2.0');
 insert into metadata (name, value) Values ('poe', 'UHS-0.02');
 
+
+
+
+hazard-UHS-EU-SHARE-as-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE Hazard Curve UHS AS 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-07');
+insert into metadata (name, value) Values ('keyword', 'Europe, share, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.15,0.2,0.25,0.3,0.5,0.75,1.0,2.0,3.0,4.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-EU-SHARE-as-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE Hazard Curve UHS AS 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-07');
+insert into metadata (name, value) Values ('keyword', 'Europe, share, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.15,0.2,0.25,0.3,0.5,0.75,1.0,2.0,3.0,4.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+hazard-UHS-EU-SHARE-fs-01.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE Hazard Curve UHS FS 0.1');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-07');
+insert into metadata (name, value) Values ('keyword', 'Europe, share, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.15,0.2,0.25,0.3,0.5,0.75,1.0,2.0,3.0,4.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.1');
+
+hazard-UHS-EU-SHARE-fs-002.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE Hazard Curve UHS FS 0.02');
+insert into metadata (name, value) Values ('type', 'curve-uhs');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-07');
+insert into metadata (name, value) Values ('keyword', 'Europe, share, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('periods', '0.0,0.1,0.15,0.2,0.25,0.3,0.5,0.75,1.0,2.0,3.0,4.0');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+
+
+
+
+hazard-map-eu-SHARE-as-pga02
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (PGA) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-pga01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (PGA) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.15-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.15 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.15-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', '	');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.1-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.1 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.1-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.1 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.25-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.25 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.25-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.25 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.2-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.2 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.2-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.2 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.3-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.3 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.3-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.3 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.5-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.5 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.5-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.5 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.75-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.75 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa0.75-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (0.75 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa1-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (1.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa1-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (1.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa2-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (2.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa2-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (2.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa3-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (3.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa3-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (3.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa4-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (4.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-as-sa4-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map AS - Spectral acceleration (4.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-pga02
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (PGA) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-pga01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (PGA) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+
+hazard-map-eu-SHARE-FS-sa0.15-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.15 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.15-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.15 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.1-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.1 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.1-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.1 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.25-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.25 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.25-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.25 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.2-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.2 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.2-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.2 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.3-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.3 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.3-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.3 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.5-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.5 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.5-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.5 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.75-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.75 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa0.75-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (0.75 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa1-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (1.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa1-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (1.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa2-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (2.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa2-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (2.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa3-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (3.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa3-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (3.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa4-002
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (4.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+hazard-map-eu-SHARE-FS-sa4-01
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE hazard map FS - Spectral acceleration (4.0 s) - 10% in 50 years');
+insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('admin_level', 'state');
+insert into metadata (name, value) Values ('date', '2014-08-16');
+insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+
+
+
+
+
+
+hazard_curve_Europe_sa_AS_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_Europe_sa_AS_0.15.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-0.15');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.15');
+
+hazard_curve_Europe_sa_AS_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_Europe_sa_AS_0.25.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-0.25');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.25');
+
+hazard_curve_Europe_sa_AS_0.3.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-0.3');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.3');
+
+hazard_curve_Europe_sa_AS_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_Europe_sa_AS_0.75.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-0.75');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.75');
+
+hazard_curve_Europe_sa_AS_1.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_Europe_sa_AS_2.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_Europe_sa_AS_3.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-3.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-3.0');
+
+hazard_curve_Europe_sa_AS_4.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - SA-4.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-4.0');
+
+hazard_curve_Europe_sa_AS_pga.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE AS Hazard Curve - PGA');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13');
+insert into metadata (name, value) Values ('imt', 'PGA');
+
+
+
+
+hazard_curve_Europe_sa_FS_0.1.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-0.1');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.1');
+
+hazard_curve_Europe_sa_FS_0.15.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-0.15');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.15');
+
+hazard_curve_Europe_sa_FS_0.2.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-0.2');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.2');
+
+hazard_curve_Europe_sa_FS_0.25.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-0.25');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.25');
+
+hazard_curve_Europe_sa_FS_0.3.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-0.3');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.3');
+
+hazard_curve_Europe_sa_FS_0.5.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-0.5');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.5');
+
+hazard_curve_Europe_sa_FS_0.75.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-0.75');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-0.75');
+
+hazard_curve_Europe_sa_FS_1.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-1.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-1.0');
+
+hazard_curve_Europe_sa_FS_2.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-2.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-2.0');
+
+hazard_curve_Europe_sa_FS_3.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-3.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-3.0');
+
+hazard_curve_Europe_sa_FS_4.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe SHARE');
+insert into metadata (name, value) Values ('mapped_value', 'Europe SHARE FS Hazard Curve - SA-4.0');
+insert into metadata (name, value) Values ('type', 'curve-hc');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-14');
+insert into metadata (name, value) Values ('keyword', 'hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('iml', '0.0009,0.001,0.002,0.003,0.004,0.005,0.007,0.0098,0.0137,0.0192,0.0269,0.0376,0.0527,0.0738,0.103,0.145,0.203,0.284,0.397,0.556,0.778,1.09,1.52,2.13,2.85,3.45');
+insert into metadata (name, value) Values ('imt', 'SA-4.0');
+
+
+
+
+
 update a record:
 update metadata set value = 'hazard-curve' where name='type';
 
@@ -2263,11 +3175,11 @@ UPDATE keymap SET key_json = replace(replace(key_json, '0.', ',0.'), ',,', ',');
 UPDATE keymap SET key_json = replace(key_json, ':",', ':"');
 
 
-hazard curves
- "field_3" ||','|| "field_4"  ||','|| "field_5" ||','|| "field_6"  ||','|| "field_7" ||','|| "field_8" ||','|| "field_9" ||','|| "field_10" ||','|| "field_11" ||','|| "field_12" ||','|| "field_13" ||','|| "field_14"  ||','|| "field_15"  ||','|| "field_16" ||','|| "field_17" ||','|| "field_18" ||','|| "field_19" ||','|| "field_20" ||','|| "field_21"
+hazard curves: prob
+ "field_3" ||','|| "field_4"  ||','|| "field_5" ||','|| "field_6"  ||','|| "field_7" ||','|| "field_8" ||','|| "field_9" ||','|| "field_10" ||','|| "field_11" ||','|| "field_12" ||','|| "field_13" ||','|| "field_14"  ||','|| "field_15"  ||','|| "field_16" ||','|| "field_17" ||','|| "field_18" ||','|| "field_19" ||','|| "field_20" ||','|| "field_21" ||','|| "field_22"||','|| "field_23"||','|| "field_24"||','|| "field_25"||','|| "field_26"||','|| "field_27"||','|| "field_28"
 
- US
- "field_3" ||','|| "field_4" ||','|| "field_5" ||','|| "field_6"  ||','|| "field_7" 
+ UhS
+ "field_3" ||','|| "field_4" ||','|| "field_5" ||','|| "field_6"  ||','|| "field_7"  ||','|| "field_8" 
 
 loss curves
 poe:
