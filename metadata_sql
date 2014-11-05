@@ -283,7 +283,7 @@ insert into metadata (name, value) Values ('project_definition', 'https://raw.gi
 hazard_map_japan_21
 insert into metadata (name, value) Values ('category', 'Japan');
 insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'japan, hazard');
@@ -294,7 +294,7 @@ insert into metadata (name, value) Values ('wiki_link', '');
 hazard_map_japan_21_land
 insert into metadata (name, value) Values ('category', 'Japan');
 insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 10% in 50 years - Land');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'japan, hazard');
@@ -305,7 +305,7 @@ insert into metadata (name, value) Values ('wiki_link', '');
 hazard_map_japan_21_contour
 insert into metadata (name, value) Values ('category', 'Japan');
 insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 10% in 50 years - Contour');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'japan, hazard');
@@ -316,7 +316,7 @@ insert into metadata (name, value) Values ('wiki_link', '');
 hazard_map_japan_21_contour_land
 insert into metadata (name, value) Values ('category', 'Japan');
 insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 10% in 50 years - Contour - Land');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'japan, hazard');
@@ -327,7 +327,7 @@ insert into metadata (name, value) Values ('wiki_link', '');
 hazard_map_japan_22
 insert into metadata (name, value) Values ('category', 'Japan');
 insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'japan, hazard');
@@ -338,7 +338,7 @@ insert into metadata (name, value) Values ('wiki_link', '');
 hazard_map_japan_22_land
 insert into metadata (name, value) Values ('category', 'Japan');
 insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 2% in 50 years - Land');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'japan, hazard');
@@ -349,7 +349,7 @@ insert into metadata (name, value) Values ('wiki_link', '');
 hazard_map_japan_22_contour
 insert into metadata (name, value) Values ('category', 'Japan');
 insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 2% in 50 years - Contour');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'japan, hazard');
@@ -360,7 +360,7 @@ insert into metadata (name, value) Values ('wiki_link', '');
 hazard_map_japan_22_contour_land
 insert into metadata (name, value) Values ('category', 'Japan');
 insert into metadata (name, value) Values ('mapped_value', 'Japan Hazard Map - 2% in 50 years - Contour - Land');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'japan, hazard');
@@ -490,7 +490,7 @@ insert into metadata (name, value) Values ('chartType', 'mixed');
 hazard_map
 insert into metadata (name, value) Values ('category', 'World');
 insert into metadata (name, value) Values ('mapped_value', 'World Hazard Map - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'global');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'hazard');
@@ -501,7 +501,7 @@ insert into metadata (name, value) Values ('wiki_link', '');
 hazard_contour
 insert into metadata (name, value) Values ('category', 'World');
 insert into metadata (name, value) Values ('mapped_value', 'World Hazard Map - 10% in 50 years - Contour');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'global');
 insert into metadata (name, value) Values ('date', '2013-04-13');
 insert into metadata (name, value) Values ('keyword', 'hazard');
@@ -830,7 +830,7 @@ insert into metadata (name, value) Values ('imt', 'PGA');
 hazard-map-Alaska-SA0-01-01
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (0.1 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -842,7 +842,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-SA0-01-02
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (0.1 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -854,7 +854,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-SA0-02-01
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (0.2 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -866,7 +866,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-SA0-02-02
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (0.2 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -878,7 +878,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-SA0-05-01
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (0.5 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -890,7 +890,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-SA0-05-02
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (0.5 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -902,7 +902,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-SA1-01
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (1.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -914,7 +914,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-SA1-02
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (1.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -926,7 +926,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-SA2-01
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (2.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -935,10 +935,10 @@ insert into metadata (name, value) Values ('application', 'hazard-viewer');
 insert into metadata (name, value) Values ('wiki_link', 'https://hazardwiki.openquake.org/hazard_models:alaska_2010_intro');
 insert into metadata (name, value) Values ('html_legend', '<div class="map-legends"><div class="map-legend"><div class="legend-title">Hazard Map Legend<br/></div><div class="legend-scale"><ul class="legend-labels"><li><span style="background:#CC0D56;"></span>iml <= 2<li><li><span style="background:#E60000;"></span>iml <= 0.88<li><li><span style="background:#FF0000;"></span>iml <= 0.52<li><li><span style="background:#FF3D2F;"></span>iml <= 0.48<li><li><span style="background:#FF8644;"></span>iml <= 0.40<li><li><span style="background:#FFAC53;"></span>iml <= 0.32<li><li><span style="background:#FFB858;"></span>iml <= 0.24<li><li><span style="background:#F5CB5F;"></span>iml <= 0.16<li><li><span style="background:#EFD462;"></span>iml <= 0.08<li><li><span style="background:#EADA65;"></span>iml <= 0.04<li><li><span style="background:#E3E86A;"></span>iml <= 0.02<li></ul></div></div>');
 
-hazard-map-Alaska-SA1-02
+hazard-map-Alaska-SA2-02
 insert into metadata (name, value) Values ('category', 'Alaska');
-insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (1.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('mapped_value', 'AK Spectral acceleration (2.0 s) - 2% in 50 years');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -950,7 +950,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-pgs-01
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK PGA - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -962,7 +962,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-Alaska-pga-002
 insert into metadata (name, value) Values ('category', 'Alaska');
 insert into metadata (name, value) Values ('mapped_value', 'AK PGA - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'alaska, hazard');
@@ -974,7 +974,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-01-01.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (0.1 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -986,7 +986,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-01-02.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (0.1 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -998,7 +998,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-02-01.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (0.2 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1010,7 +1010,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-02-02.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (0.2 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1022,7 +1022,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-05-01.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (0.5 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1034,7 +1034,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-05-02.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (0.5 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1046,7 +1046,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-1-01.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (1.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1058,7 +1058,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-1-02.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (1.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1070,7 +1070,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-2-01.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (2.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1082,7 +1082,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-usa-SA-2-02.mbtiles
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA Spectral acceleration (2.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1094,7 +1094,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-USA-PGA01
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA PGA - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1106,7 +1106,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-USA-PGA002
 insert into metadata (name, value) Values ('category', 'USA (2008, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'USA PGA - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'national');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'usa, hazard');
@@ -1749,7 +1749,7 @@ insert into metadata (name, value) Values ('imt', 'PGA');
 hazard-map-australia-SA-01-01
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (0.1 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1761,7 +1761,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-SA-01-02
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (0.1 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1773,7 +1773,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-SA-02-01
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (0.2 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1785,7 +1785,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-SA-02-02
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (0.2 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1797,7 +1797,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-SA-05-01
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (0.5 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1809,7 +1809,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-SA-05-02
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (0.5 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1821,7 +1821,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-SA-1-01
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (1.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1833,7 +1833,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-SA-1-02
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (1.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1845,7 +1845,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-SA-2-01
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (2.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1857,7 +1857,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-SA-2-02
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (2.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1869,7 +1869,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-pga01
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (PGA) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1881,7 +1881,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-australia-pga02
 insert into metadata (name, value) Values ('category', 'Australia');
 insert into metadata (name, value) Values ('mapped_value', 'Australia Spectral acceleration (PGA) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Australia, hazard');
@@ -1896,7 +1896,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-01-01
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (0.1 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -1908,7 +1908,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-01-02
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (0.1 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -1920,7 +1920,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-02-01
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (0.2 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -1932,7 +1932,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-02-02
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (0.2 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -1944,7 +1944,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-05-01
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (0.5 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -1956,7 +1956,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-05-02
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (0.5 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -1968,7 +1968,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-1-01
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (1.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -1980,7 +1980,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-1-02
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (1.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -1992,7 +1992,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-2-01
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (2.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -2004,7 +2004,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-SA-2-02
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (2.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -2016,7 +2016,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-pga01
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (PGA) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -2028,7 +2028,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-america-pga02
 insert into metadata (name, value) Values ('category', 'South America');
 insert into metadata (name, value) Values ('mapped_value', 'South America Spectral acceleration (PGA) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South America, hazard');
@@ -2043,7 +2043,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-01-01
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (0.1 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2055,7 +2055,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-01-02
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (0.1 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2067,7 +2067,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-02-01
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (0.2 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2079,7 +2079,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-02-02
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (0.2 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2091,7 +2091,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-05-01
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (0.5 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2103,7 +2103,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-05-02
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (0.5 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2115,7 +2115,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-1-01
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (1.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2127,7 +2127,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-1-02
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (1.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2139,7 +2139,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-2-01
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (2.0 s) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2151,7 +2151,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-SA-2-02
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (2.0 s) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2163,7 +2163,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-pga01
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (PGA) - 10% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2175,7 +2175,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-south-east-asia-pga02
 insert into metadata (name, value) Values ('category', 'South East Asia (2007, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'South East Asia Spectral acceleration (PGA) - 2% in 50 years');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'South East Asia, hazard');
@@ -2189,7 +2189,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-pga-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 10% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2201,7 +2201,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-pga-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 2% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2213,7 +2213,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-sa-01-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 10% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2225,7 +2225,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-sa-01-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 2% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2237,7 +2237,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-sa-02-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 10% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2249,7 +2249,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-sa-02-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 2% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2261,7 +2261,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-sa-05-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 10% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2273,7 +2273,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-sa-05-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 2% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2285,7 +2285,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-sa1-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 10% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2297,7 +2297,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-fs-sa1-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 2% in 50 years historical east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2311,7 +2311,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-pga-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 10% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2323,7 +2323,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-pga-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 2% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2335,7 +2335,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-sa-01-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 10% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2347,7 +2347,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-sa-01-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 2% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2359,7 +2359,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-sa-02-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 10% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2371,7 +2371,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-sa-02-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 2% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2383,7 +2383,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-sa-05-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 10% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2395,7 +2395,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-sa-05-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 2% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2407,7 +2407,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-sa1-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 10% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2419,7 +2419,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-east-hr-sa1-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 2% in 50 years historical east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2433,7 +2433,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-pga-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 10% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2445,7 +2445,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-pga-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 2% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2457,7 +2457,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-sa-01-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 10% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2469,7 +2469,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-sa-01-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 2% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2481,7 +2481,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-sa-02-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 10% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2493,7 +2493,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-sa-02-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 2% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2505,7 +2505,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-sa-05-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 10% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2517,7 +2517,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-sa-05-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 2% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2529,7 +2529,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-sa1-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 10% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2541,7 +2541,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-fs-sa1-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 2% in 50 years regional east firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2555,7 +2555,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-pga-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 10% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2567,7 +2567,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-pga-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 2% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2579,7 +2579,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-sa-01-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 10% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2591,7 +2591,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-sa-01-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 2% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2603,7 +2603,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-sa-02-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 10% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2615,7 +2615,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-sa-02-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 2% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2627,7 +2627,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-sa-05-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 10% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2639,7 +2639,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-sa-05-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 2% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2651,7 +2651,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-sa1-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 10% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2663,7 +2663,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-east-hr-sa1-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 2% in 50 years regional east hard rock');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2677,7 +2677,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-pga-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 10% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2689,7 +2689,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-pga-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 2% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2701,7 +2701,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-sa-01-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 10% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2713,7 +2713,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-sa-01-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 2% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2725,7 +2725,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-sa-02-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 10% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2737,7 +2737,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-sa-02-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 2% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2749,7 +2749,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-sa-05-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 10% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2761,7 +2761,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-sa-05-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 2% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2773,7 +2773,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-sa1-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 10% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2785,7 +2785,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-hist-west-fs-sa1-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 2% in 50 years historical west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2799,7 +2799,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-pga-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 10% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2811,7 +2811,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-pga-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 2% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2823,7 +2823,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-sa-01-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 10% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2835,7 +2835,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-sa-01-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 2% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2847,7 +2847,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-sa-02-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 10% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2859,7 +2859,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-sa-02-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 2% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2871,7 +2871,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-sa-05-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 10% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2883,7 +2883,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-sa-05-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 2% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2895,7 +2895,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-sa1-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 10% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2907,7 +2907,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-reg-west-fs-sa1-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 2% in 50 years regional west firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2921,7 +2921,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-pga-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 10% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2933,7 +2933,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-pga-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 2% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2945,7 +2945,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-sa-01-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 10% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2957,7 +2957,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-sa-01-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 2% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2969,7 +2969,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-sa-02-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 10% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2981,7 +2981,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-sa-02-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 2% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -2993,7 +2993,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-sa-05-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 10% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -3005,7 +3005,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-sa-05-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 2% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -3017,7 +3017,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-sa1-01.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 10% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -3029,7 +3029,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-canada-combined-fs-sa1-002.mbtiles
 insert into metadata (name, value) Values ('category', 'Canada (2010, United States Geological Survey)');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 2% in 50 years combined firm soil');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Canada, hazard');
@@ -3520,7 +3520,7 @@ insert into metadata (name, value) Values ('poe', 'UHS-0.02');
 hazard-map-eu-SHARE-as-pga02
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3532,7 +3532,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-pga01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 10% in 50 year, Area Source Models');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3544,7 +3544,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.15-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.15 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3556,7 +3556,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.15-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.15 s) - 10% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3568,7 +3568,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.1-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3580,7 +3580,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.1-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 10% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3592,7 +3592,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.25-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.25 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3604,7 +3604,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.25-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.25 s) - 10% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3616,7 +3616,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.2-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3628,7 +3628,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.2-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 10% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3640,7 +3640,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.3-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.3 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3652,7 +3652,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.3-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.3 s) - 10% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3664,7 +3664,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.5-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3676,7 +3676,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.5-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 10% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3688,7 +3688,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.75-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.75 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3700,7 +3700,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa0.75-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.75 s) - 10% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3712,7 +3712,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa1-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3724,7 +3724,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa1-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 10% in 50 year, Area Source Models');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3736,7 +3736,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa2-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (2.0 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3748,7 +3748,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa2-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (2.0 s) - 10% in 50 year, Area Source Models');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3760,7 +3760,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa3-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (3.0 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3772,7 +3772,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa3-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (3.0 s) - 10% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3784,7 +3784,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa4-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (4.0 s) - 2% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3796,7 +3796,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-as-sa4-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (4.0 s) - 10% in 50 years, Area Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3808,7 +3808,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-pga02
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3820,7 +3820,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-pga01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (PGA) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3833,7 +3833,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.15-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.15 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3845,7 +3845,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.15-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.15 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3857,7 +3857,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.1-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3869,7 +3869,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.1-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.1 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3881,7 +3881,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.25-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.25 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3893,7 +3893,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.25-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.25 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3905,7 +3905,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.2-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3917,7 +3917,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.2-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.2 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3929,7 +3929,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.3-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.3 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3941,7 +3941,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.3-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.3 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3953,7 +3953,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.5-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3965,7 +3965,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.5-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.5 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3977,7 +3977,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.75-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.75 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -3989,7 +3989,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa0.75-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (0.75 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -4001,7 +4001,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa1-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -4013,7 +4013,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa1-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (1.0 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -4025,7 +4025,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa2-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (2.0 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -4037,7 +4037,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa2-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (2.0 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -4049,7 +4049,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa3-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (3.0 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -4061,7 +4061,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa3-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (3.0 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -4073,7 +4073,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa4-002
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (4.0 s) - 2% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
@@ -4085,7 +4085,7 @@ insert into metadata (name, value) Values ('html_legend', '<div class="map-legen
 hazard-map-eu-SHARE-FS-sa4-01
 insert into metadata (name, value) Values ('category', 'Europe SHARE');
 insert into metadata (name, value) Values ('mapped_value', 'Spectral acceleration (4.0 s) - 10% in 50 years Fault Source Model');
-insert into metadata (name, value) Values ('type', 'hazard');
+insert into metadata (name, value) Values ('type', 'map');
 insert into metadata (name, value) Values ('admin_level', 'state');
 insert into metadata (name, value) Values ('date', '2014-08-16');
 insert into metadata (name, value) Values ('keyword', 'Europe SHARE, hazard');
