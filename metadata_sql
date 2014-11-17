@@ -11,7 +11,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'economy, debt');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 exports
 insert into metadata (name, value) Values ('category', 'economy');
@@ -23,7 +22,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'economy, exports');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 GDP per capita
 insert into metadata (name, value) Values ('category', 'economy');
@@ -35,7 +33,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'economy, GDP');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 GDP services sector
 insert into metadata (name, value) Values ('category', 'economy');
@@ -47,7 +44,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'economy, GDP, service');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 GINI
 insert into metadata (name, value) Values ('category', 'economy');
@@ -59,7 +55,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'economy, GINI');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 Labor force agriculture
 insert into metadata (name, value) Values ('category', 'economy');
@@ -71,7 +66,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'economy, agriculture');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 Poverty
 insert into metadata (name, value) Values ('category', 'economy');
@@ -83,7 +77,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'economy, poverty');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 unemployment
 insert into metadata (name, value) Values ('category', 'economy');
@@ -95,7 +88,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'economy, Unemployment');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 
 expenditures
@@ -108,7 +100,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'education, expenditures');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 literacy female
 insert into metadata (name, value) Values ('category', 'Education');
@@ -120,7 +111,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'education, literacy');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 literacy
 insert into metadata (name, value) Values ('category', 'Education');
@@ -132,7 +122,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'education, literacy');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 schooling
 insert into metadata (name, value) Values ('category', 'Education');
@@ -144,7 +133,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'education, schooling');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 asylum
 insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
@@ -156,7 +144,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'governance, Asylum');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 Effectiveness
 insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
@@ -168,7 +155,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'governance, Effectiveness');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 Intentional homicides
 insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
@@ -180,7 +166,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'governance, Intentional homicides');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 legal rights **************
 insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
@@ -192,7 +177,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'governance, Leagal rights');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 loss
 insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
@@ -204,7 +188,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'governance, Losses due to theft, robbery, vandalism, and arson');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 voting turnout
 insert into metadata (name, value) Values ('category', 'Governance & Institutional Capacity');
@@ -216,7 +199,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'governance, voter turnout');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 age structure
 insert into metadata (name, value) Values ('category', 'Population');
@@ -228,7 +210,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'governance, age structure');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 density
 insert into metadata (name, value) Values ('category', 'Population');
@@ -240,9 +221,8 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'population, density');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
-migration 
+migration
 insert into metadata (name, value) Values ('category', 'Population');
 insert into metadata (name, value) Values ('sub_category', 'Population Structure');
 insert into metadata (name, value) Values ('mapped_value', 'Net migration rate');
@@ -252,8 +232,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'population, migration');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
-
 
 tourism
 insert into metadata (name, value) Values ('category', 'Population');
@@ -265,7 +243,6 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'population, migration');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 
 svir-portugal
 insert into metadata (name, value) Values ('category', 'Portugal');
@@ -277,8 +254,53 @@ insert into metadata (name, value) Values ('date', '2013-09-12');
 insert into metadata (name, value) Values ('keyword', 'portugal');
 insert into metadata (name, value) Values ('source', 'GEM');
 insert into metadata (name, value) Values ('application', 'svir-viewer');
-insert into metadata (name, value) Values ('wiki_link', '');
 insert into metadata (name, value) Values ('project_definition', 'https://raw.github.com/gem/oq-platform/svir-viewer-sub/openquakeplatform/openquakeplatform/temp/temp_json_tree.json');
+
+______________________________________
+			GRV SVIR APP
+______________________________________
+
+insert into metadata (name, value) Values ('category', 'economy');
+insert into metadata (name, value) Values ('date', '2014-11-16');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'grv');
+insert into metadata (name, value) Values ('indicators', 'gdp per capita, global rank gdp per capita, global rank gni per capita, global rank percent female labor force participation, global rank percent of gdp agriculture, global rank percent of gdp exports of goods and services, global rank percent of gdp industry, global rank percent of gdp remittances, global rank percent of gdp service sector, global rank percent of merchandise imports food, global rank percentage of population unemployed, gni per capita, percent female labor force participation, percent of gdp agriculture, percent of gdp exports of goods and services, percent of gdp industry, percent of gdp remittances, percent of gdp service sector, percent of merchandise imports food, percentage of population unemployed, regional rank gdp per capita, regional rank gni per capita, regional rank percent female labor force participation, regional rank percent of gdp agriculture, regional rank percent of gdp exports of goods and services, regional rank percent of gdp industry, regional rank percent of gdp remittances, regional rank percent of gdp service sector, regional rank percent of merchandise imports food, regional rank percentage of population unemployed');
+
+insert into metadata (name, value) Values ('category', 'population');
+insert into metadata (name, value) Values ('date', '2014-11-16');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'grv');
+insert into metadata (name, value) Values ('indicators', 'death rate deaths per 1000 population, dependency ratio, global rank death rate deaths per 1000 population, global rank dependency ratio, global rank human development index, global rank median age, global rank percent of population that is an international migrant, global rank percent population aged 014, global rank percent population aged 65 and over, global rank percent urban population, global rank population density people per km2, global rank sex ratio male to female, human development index, median age, percent of population that is an international migrant, percent population aged 014, percent population aged 65 and over, percent urban population, population density people per km2, regional rank death rate deaths per 1000 population, regional rank dependency ratio, regional rank human development index, regional rank median age, regional rank percent of population that is an international migrant, regional rank percent population aged 014, regional rank percent population aged 65 and over, regional rank percent urban population, regional rank population density people per km2, regional rank sex ratio male to female, sex ratio male to female');
+
+insert into metadata (name, value) Values ('category', 'education');
+insert into metadata (name, value) Values ('date', '2014-11-16');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'grv');
+insert into metadata (name, value) Values ('indicators', 'education expenditures as percent of gdp, global rank education expenditures as percent of gdp, global rank gross enrollment ratio primary education, global rank mean years of schooling, global rank percent of population that is literate, global rank pupil to teacher ratio, gross enrollment ratio primary education, mean years of schooling, percent of population that is literate, pupil to teacher ratio, regional rank education expenditures as percent of gdp, regional rank gross enrollment ratio primary education, regional rank mean years of schooling, regional rank percent of population that is literate, regional rank pupil to teacher ratio');
+
+insert into metadata (name, value) Values ('category', 'government');
+insert into metadata (name, value) Values ('date', '2014-11-16');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'grv');
+insert into metadata (name, value) Values ('indicators', 'asylum seekers pending cases from country of origin, corruption index, global rank asylum seekers pending cases from country of origin, global rank corruption index, global rank intentional homicides per 100000 people, global rank percent of population that voted in last parliamentary election, intentional homicides per 100000 people, percent of population that voted in last parliamentary election, percent of seats held by women in national parliaments, regional rank asylum seekers pending cases from country of origin, regional rank corruption index, regional rank intentional homicides per 100000 people, regional rank percent of population that voted in last parliamentary election, regional rank percent of seats held by women in national parliaments, road density per km2, ﻿﻿global rank percent of seats held by women in national parliaments');
+
+insert into metadata (name, value) Values ('category', 'infrastructure');
+insert into metadata (name, value) Values ('date', '2014-11-16');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'grv');
+insert into metadata (name, value) Values ('indicators', 'global rank mobile cellular subscriptions per 1000 population, global rank motor vehicles per 1000 population, global rank percent of population with improved sanitation facilities access, global rank percent of population with improved water source access, global rank road density per km2, mobile cellular subscriptions per 1000 population, motor vehicles per 1000 population, percent of population with improved sanitation facilities access, percent of population with improved water source access, regional rank mobile cellular subscriptions per 1000 population, regional rank motor vehicles per 1000 population, regional rank percent of population with improved sanitation facilities access, regional rank percent of population with improved water source access, regional rank road density per km2, road density per km2');
+
+
+insert into metadata (name, value) Values ('category', 'population');
+insert into metadata (name, value) Values ('date', '2014-11-16');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'grv');
+insert into metadata (name, value) Values ('indicators', 'death rate deaths per 1000 population, dependency ratio, global rank death rate deaths per 1000 population, global rank dependency ratio, global rank human development index, global rank median age, global rank percent of population that is an international migrant, global rank percent population aged 014, global rank percent population aged 65 and over, global rank percent urban population, global rank population density people per km2, global rank sex ratio male to female, human development index, median age, percent of population that is an international migrant, percent population aged 014, percent population aged 65 and over, percent urban population, population density people per km2, regional rank death rate deaths per 1000 population, regional rank dependency ratio, regional rank human development index, regional rank median age, regional rank percent of population that is an international migrant, regional rank percent population aged 014, regional rank percent population aged 65 and over, regional rank percent urban population, regional rank population density people per km2, regional rank sex ratio male to female, sex ratio male to female');
+
+
+______________________________________
+			HRDE APP
+______________________________________
 
 hazard_map_japan_21
 insert into metadata (name, value) Values ('category', 'Japan');
