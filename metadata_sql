@@ -381,6 +381,21 @@ insert into metadata (name, value) Values ('periods', '0.2500,0.2500,0.3000,0.35
 insert into metadata (name, value) Values ('poe', 'UHS-0.02');
 insert into metadata (name, value) Values ('imt', 'Period (s)');
 
+hazard_spectrum_code_5_params.mbtiles
+insert into metadata (name, value) Values ('category', 'Europe (Seismic Hazard Harmonisation in Europe, 2013)');
+insert into metadata (name, value) Values ('mapped_value', 'DEMO spectrum 5 params');
+insert into metadata (name, value) Values ('type', 'curve-spectrum');
+insert into metadata (name, value) Values ('admin_level', 'continent');
+insert into metadata (name, value) Values ('date', '2014-08-07');
+insert into metadata (name, value) Values ('keyword', 'Europe, share, hazard');
+insert into metadata (name, value) Values ('source', 'GEM');
+insert into metadata (name, value) Values ('application', 'hazard-viewer');
+insert into metadata (name, value) Values ('wiki_link', 'https://hazardwiki.openquake.org/share2013');
+insert into metadata (name, value) Values ('investigationTime', '50');
+insert into metadata (name, value) Values ('chartType', 'single');
+insert into metadata (name, value) Values ('poe', 'UHS-0.02');
+insert into metadata (name, value) Values ('imt', 'Period (s)');
+
 
 
 update a record:
