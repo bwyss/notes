@@ -16,3 +16,6 @@ next, create a symlink from /Users/bwyss/.nvm/versions/node/v5.10.1/tslint to /u
 Once all that is in place then you can install the SublimeLinter-contrib-tslint
 plugin
 
+
+Snippets:
+Mac OSX Sublime3 snippet directory: ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
