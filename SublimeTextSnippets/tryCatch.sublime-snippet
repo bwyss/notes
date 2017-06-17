@@ -5,6 +5,6 @@
 	// continue
 }]]></content>
     <tabTrigger>try</tabTrigger>
-    <scope>source.js</scope>
+    <scope>source.js, source.tsx, source.jsx</scope>
     <description>try … catch … finally</description>
 </snippet>
