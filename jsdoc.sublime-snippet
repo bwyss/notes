@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+ /**
+ * ${1:Description}
+ * @param {Object} employee - The employee who is responsible for the project.
+ * @param {string} employee.name - The name of the employee.
+ * @param {string} employee.department - The employee's department.
+ */
+
+]]></content>
+  <tabTrigger>doc</tabTrigger>
+  <scope>source.js, source.ts, source.tsx, source.jsx</scope>
+  <description>jsdoc</description>
+</snippet>
+
